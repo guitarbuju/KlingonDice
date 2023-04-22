@@ -1,0 +1,275 @@
+
+
+.contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1200px;
+    padding-top: -150px;
+}
+
+.wrapper{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    margin-left: 150px;
+    justify-content: center;
+    margin-top: -30px;
+}
+.wrapper2{
+    margin-left: 150px;
+    margin-top: 20px;
+    display:flex;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+
+.imgcard{
+    width: 150px;
+    transition: 0.1s ease-in;
+    height: 180px;
+}
+.imgcard:hover{
+    width: 152px;
+    height: 183px;
+    border: 2px inset white; 
+}
+.tarjeta{
+    border: 4px outset white;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.winners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    visibility:hidden;
+    margin-top: -1100px;
+   
+}
+.win{
+    width: 250px;
+    height: 270px;
+    border: 2px inset white; 
+    border: 8px outset white;
+    box-shadow: 2px 2px 2px black;
+    margin-top: -30px;
+  
+
+}
+.title{
+    text-shadow: 1.5px 1.5px 1.5px black,3px 3px 3px white ,4px 4px 8px black;
+    margin-top: -30px;
+}
+
+.adverse{
+    font-Family:'starfleet2';
+     color:	#1a8dd4;
+    text-shadow:1.5px 1.5px 1.5px white,2px 2px 6px black ;
+    letter-spacing: 1px;
+    
+}
+.adverse1{
+    font-Family:'starfleet2';
+     color:	#1a8dd4;
+    text-shadow:1.5px 1.5px 1.5px  white,2px 2px 6px black ;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin-top: -50px;
+    padding-bottom: 25px;
+    
+    
+}
+.boton{
+    color:white;
+    text-align: center;
+    text-shadow:1.5px 1.5px 1.5px white,2px 2px 6px black ; 
+    box-shadow:2px 2px 2px black ; 
+    background-color: #1a8dd4;
+    width: 125px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 7px;
+    transition: 1s;
+    margin-left: 10px;
+}
+.boton:hover{
+    background-color: #FFD700; 
+    width: 130px;
+    height: 50px;
+    color:#1a8dd4;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow:1.5px 1.5px 1.5px white,2px 2px 6px black ; 
+    box-shadow:2px 2px 2px black ; 
+}
+
+#mesa{
+    border: 7px solid #1a8dd4;
+    border-radius: 15px;
+    display: flex;
+    margin-top: -300px;
+    gap: 20px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background: url('./img/dash3.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 460px;
+}
+
+#mesa-cont{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    margin-top: 300px;
+    height: 800px;
+    align-items: center;
+}
+
+#objetos{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -50px;
+}
+.dados-cont{
+    width: 150px;
+    transition: 0.1s ease-in;
+    height: 180px;
+    border: 4px double white;
+    
+    
+}
+
+.dados{
+    font-size: 120px;
+    font-family: 'klingon';
+    color: #FFD700;
+    text-shadow:1.5px 1.5px 1.5px white,4px 4px 10px black ;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+}
+#response{
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    color:white;
+    font-family: 'monitors';
+    font-size: 60px;
+    text-shadow:4px 4px 4px black, 2px 2px 2px white,4px 4px 10px black ;
+    margin-top: 80px;
+    width: 100px;
+   
+}
+
+
+   
+
+#consola{
+    display :flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: -130px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#monto{
+    width: 150px;
+    border: 2px double white;
+    background-color: #1a8dd4;
+    opacity: 0.8;
+    color: white;
+    height: 25px;
+}
+::placeholder{color:white;
+text-align: center;}
+
+#trigger{
+    width: 100px;
+    height: 30px;
+    border: 2px double white;
+    background-color: rgb(255, 136, 0);
+    text-shadow: 1.5px 1.5px 1.5px black,3px 3px 3px white ,4px 4px 8px black;
+    color: white;
+    font-size: 25px;
+    font-family: 'tng';
+    text-align: center;
+}
+#bet{
+    border: 2px double white;
+    border-radius: 25px;
+    background-color: rgb(221, 8, 8);
+    text-shadow: 1.5px 1.5px 1.5px black,3px 3px 3px white ,4px 4px 8px black;
+    color: white;
+    font-size: 25px;
+    margin: 4px 2px;
+    font-family: 'tng';
+    text-align: center;
+    height: 30px;
+    width:70px
+
+}
+
+.saldo{
+   margin-bottom: -10px;
+   margin-top: 5px;
+   font-family: 'tng';
+   text-shadow: 1.5px 1.5px 1.5px black,3px 3px 3px white ,4px 4px 8px black;;
+}
+
+#saldo{
+    display:flex;
+    gap:-30px;
+    flex-direction: column;
+    height: 100px;
+    border:2px solid white;
+    width: 300px;
+    padding: 10px;
+}
+
+@keyframes enterprise {
+    0%{margin-left:-1200px;opacity: 0;}
+    25%{opacity: 0.8;}
+    50%{opacity:1;}
+    75%{opacity:0.8;}
+    100%{margin-right:  -1700px;opacity: 0;}
+}
+#enterprise{
+  opacity:0;
+  animation-name: enterprise;
+  animation-duration: 5s;
+  animation-iteration-count: 4;
+  animation-timing-function: ease-in;
+}
+.beamup{
+    
+    animation-name: beamup;
+    animation-duration:10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in; 
+}
+
+@keyframes beamup {
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    50%{opacity:0.50;}
+    75%{opacity:0.75;}
+    100%{opacity: 1;}
+}
